@@ -1,12 +1,14 @@
 # Dependencies necessary for utilizing Dash provided testing utilities
 beautifulsoup4>=4.8.2
-cryptography<3.4;python_version<"3.7"
+cryptography<42.0.8;python_version<"3.7"
 lxml>=4.6.2
 percy>=2.0.2
 pytest>=6.0.2
-requests[security]>=2.21.0
+requests>=2.31.0
 selenium>=3.141.0,<=4.2.0
-waitress>=1.4.4
+waitress>=2.1.1
 multiprocess>=0.70.12
 psutil>=5.8.0
 dash_testing_stub>=0.0.2
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
