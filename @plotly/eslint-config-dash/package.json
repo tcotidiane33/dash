@@ -7,10 +7,10 @@
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.26.0",
+    "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react": "^7.33.0",
     "prettier": "^2.7.1"
   },
   "peerDependencies": {
