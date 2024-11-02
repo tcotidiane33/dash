@@ -45,5 +45,6 @@ percy>=2.0.2
 pytest>=6.0.2
 requests[security]>=2.21.0
 selenium>=3.141.0
-waitress>=1.4.4
+waitress>=3.0.1
 webdriver-manager>=3.5.1
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
